@@ -1,6 +1,32 @@
 h1 {
   font-family: "EB Garamond", serif;
+  color: white;
+  font-size: 80px;
+  line-height: 70%;
 }
+
 h2 {
   font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.container,
+.hero {
+  padding-top: 100px;
+}
+
+.hero-left {
+  background-color: #7f8b75;
+}
+
+.hero-right {
+  background-color: #c77d1c;
+}
+.hero-text-name {
+  padding-top: 370px;
+  padding-left: 20px;
+}
+.hero-text-description {
+  padding-top: 390px;
+  padding-left: 20px;
 }
