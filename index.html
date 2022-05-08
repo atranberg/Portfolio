@@ -29,19 +29,107 @@
     <title>Anna Tranberg | Front-end developer</title>
   </head>
   <body>
-    <div class="container-fluid hero-container">
-      <div class="row">
-        <div class="col-sm-4 hero-left">
-          <h1>anna tranberg</h1>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: #c77d1c"
+    >
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html">at</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="col-sm-4 hero-center">
-          <img
-            src="images/flowers_hero.jpg"
-            class="img-fluid"
-            alt="meadow with flowers"
-          />
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 hero-left">
+            <h1>anna<br />tranberg</h1>
+          </div>
+          <div class="col-8 hero-center" id="hero-image">
+            <img
+              src="images/flowers_hero_2.jpg"
+              class="img-fluid"
+              alt="meadow with flowers"
+            />
+          </div>
         </div>
-        <div class="col-sm-4 hero-right bottom"></div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="images/landing_page.PNG"
+              class="img-thumbnail"
+              alt="landing page"
+            />
+            <h3>Landing page</h3>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/weather_app.PNG"
+              class="img-thumbnail"
+              alt="landing page"
+            />
+            <h3>Weather application</h3>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/homepage.PNG"
+              class="img-thumbnail"
+              alt="landing page"
+            />
+            <h3>Portfolio page</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" class="pl-0">
+            <img src="images/Anna_profilbild.jpeg" class="img-fluid" />
+          </div>
+          <div class="col-md-8">
+            <h2 class="mb-3 project-heading">About me</h2>
+            <p></p>
+            <a href="#" class="launch-link">Find out more</a>
+          </div>
+        </div>
       </div>
     </div>
   </body>
