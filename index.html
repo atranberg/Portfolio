@@ -49,14 +49,6 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active text-white"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
               <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
@@ -71,102 +63,58 @@
     </nav>
 
     <div class="hero">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-4 hero-left">
-            <h1>
-              anna
-              <br />
-              tranberg
-              <br />
-              <div class="hero-subheading">front-end developer</div>
-            </h1>
-          </div>
-          <div class="col-8 hero-center" id="hero-image">
-            <img
-              src="images/flowers_hero_2.jpg"
-              class="img-fluid"
-              alt="meadow with flowers"
-            />
-          </div>
+      <div class="container-fluid d-flex justify-content-center p-0">
+        <div class="hero-text">
+          <h1>anna tranberg</h1>
+          <h1 class="hero-subheading">front-end developer based in Brussels</h1>
         </div>
       </div>
     </div>
 
     <div class="portfolio">
       <h2>Portfolio</h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="images/landingpage_example.png"
-              class="card-img-top"
-              alt="landing page"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Landing page</h4>
-              <p class="card-text">
-                A simple landing page to display information about the European
-                mobility week and car-free Sunday.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">HTML, CSS, JavaScript</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="images/weatherapp_example.png"
-              class="card-img-top"
-              alt="weather application"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Weather application</h4>
-              <p class="card-text">
-                Including a search engine, current location feature, temperature
-                converter and timezone adjusted sunset/sunrise.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">HTML, CSS, JavaScript, API</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="images/homepage_example.png"
-              class="card-img-top"
-              alt="portfolio page"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Multipage website</h4>
-              <p class="card-text">A portfolio page with multiple pages.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">HTML, CSS</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contact-me">
-      <div
-        class="container-fluid d-flex justify-content-center align-items-center"
-      >
+      <div class="container">
         <div class="row">
-          <div class="col-12">
-            <button type="button" class="btn btn-light contact-button">
-              contact me
-            </button>
+          <div class="col-md-6">
+            <img src="images/weatherapp_example.png" class="img-fluid border" />
+          </div>
+          <div class="col-md-6">
+            <h4>HTML, CSS, JavaScript, API</h4>
+            <h3 class="mb-3 project-heading">Weather application</h3>
+            <p>
+              Including a search engine, current location feature, temperature
+              converter and timezone adjusted sunset/sunrise.
+            </p>
+            <a href="index.html" class="learn-more-link">Learn more</a>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>HTML, CSS</h4>
+              <h3 class="mb-3 project-heading">Multipage website</h3>
+              <p>A responsive portfolio page with multiple pages.</p>
+              <a href="index.html" class="learn-more-link">Learn more</a>
+            </div>
+            <div class="col-md-6">
+              <img src="images/homepage_example.png" class="img-fluid" />
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/landingpage_example.png" class="img-fluid" />
+              </div>
+              <div class="col-md-6">
+                <h4>HTML, CSS</h4>
+                <h3 class="mb-3 project-heading">Landing page</h3>
+                <p>
+                  A basic landing page to display information about the European
+                  mobility week and car-free Sunday.
+                </p>
+                <a href="index.html" class="learn-more-link">Learn more</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     <div class="container-fluid footer">
       <div><h1>at</h1></div>
       <div></div>
