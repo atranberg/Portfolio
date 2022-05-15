@@ -44,7 +44,7 @@ h5 {
 p {
   font-family: var(--default-font-family);
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -85,7 +85,8 @@ p {
   padding-top: 100px;
 }
 
-.learn-more-link {
+.learn-more-link,
+.contact-link {
   border-radius: 4px;
   padding: 15px 15px;
   text-decoration: none;
