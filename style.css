@@ -93,6 +93,10 @@ a:hover {
   color: #73777b;
 }
 
+.contact-page-link {
+  text-decoration: none;
+}
+
 .footer {
   width: 100%;
   padding: 30px 0px;
