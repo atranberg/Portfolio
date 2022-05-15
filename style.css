@@ -17,7 +17,7 @@ h2 {
   font-family: var(--heading-font-family);
   color: var(--secondary-color);
   font-size: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -32,13 +32,6 @@ h4 {
   font-family: var(--default-font-family);
   color: black;
   font-size: 18px;
-}
-
-h5 {
-  font-family: var(--heading-font-family);
-  color: var(--secondary-color);
-  font-size: 50px;
-  text-align: left;
 }
 
 p {
@@ -127,11 +120,8 @@ a:hover {
     padding-top: 60px;
     padding-bottom: 40px;
   }
-  h2 {
-    margin: 0;
-  }
-  h4,
-  h5 {
+  h2,
+  h4 {
     margin-top: 40px;
   }
 
