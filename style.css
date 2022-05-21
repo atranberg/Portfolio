@@ -89,12 +89,17 @@ p {
   font-size: 20px;
 }
 
-a:hover {
+.learn-more-link:hover,
+.contact-link:hover {
   color: #73777b;
 }
 
 .contact-page-link {
   text-decoration: none;
+}
+
+.contact-page-link:hover {
+  color: var(--secondary-color);
 }
 
 .footer {
