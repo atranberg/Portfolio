@@ -98,7 +98,7 @@ p {
   text-decoration: none;
 }
 
-.contact-page-link:hover {
+.contact-page-link p:hover {
   color: var(--secondary-color);
 }
 
